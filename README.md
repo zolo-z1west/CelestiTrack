@@ -156,8 +156,4 @@ This project is licensed under the MIT License.
 
 ---
 
-## Citation
-If you use or reference this work, please cite it as:
-```
-Sharma, U. (2025). Deep Orbit Trajectory Model (DOTM): Satellite Path Prediction using Stellarium Data and Machine Learning. GitHub Repository.
-```
+
