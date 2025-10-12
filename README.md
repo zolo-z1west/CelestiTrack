@@ -91,7 +91,7 @@ Deep-Orbit-Trajectory-Model/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/Deep-Orbit-Trajectory-Model.git
+git clone https://github.com/zolo-z1west/Deep-Orbit-Trajectory-Model.git
 cd Deep-Orbit-Trajectory-Model
 ```
 
