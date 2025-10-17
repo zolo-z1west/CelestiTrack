@@ -1,24 +1,3 @@
-# ----- DEBUG START (paste at top of data_utils.py) -----
-import sys, importlib, traceback
-print("DEBUG: sys.executable =", sys.executable)
-print("DEBUG: sys.version =", sys.version.replace('\\n',' '))
-print("DEBUG: cwd =", __import__('os').getcwd())
-print("DEBUG: sys.path (first 8 entries) =")
-for i, p in enumerate(sys.path[:8]):
-    print(f"  [{i}] {p!r}")
-# Try importing skyfield here to capture any exception with full traceback
-try:
-    importlib.invalidate_caches()
-    from skyfield.api import load, EarthSatellite
-    print("DEBUG: skyfield imported from:", getattr(load, "__module__", "<unknown>"))
-except Exception as e:
-    print("DEBUG: import error while importing skyfield:")
-    traceback.print_exc()
-# ----- DEBUG END -----
-
-
-
-
 
 from skyfield.api import EarthSatellite, load
 from pathlib import Path
